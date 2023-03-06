@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Tamagotchi</title>
+    <link rel="stylesheet" href="./css/script.css" />
+    <script src="main.js" type="module"></script>
+  </head>
+  <body>
+    <section class="">
+      <form id="new-form">
+        <h1>My Tamagotchi!</h1>
+        <input type="text" name="name" placeholder="name your tamagotchi!" required/>
+        <select name="type">
+          <option value="lovebird">Lovebird</option>
+          <option value="koala">Koala</option>
+          <option value="panda">Panda</option>
+          <option value="snake">Snake</option>
+          <option value="snail">Snail</option>
+          <option value="fish">Fish</option>
+          <option value="lion">Lion</option>
+        </select>
+        <button>bring tamagotchi to life!</button>
+      </form>
+    </section>
+
+    <div class="tamContainer" id="tamContainer"></div>
+  </body>
+</html>
